@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+} 
+body {
+    overflow-x: hidden;
+}
+
+/* nav section */
+
+nav ul { 
+   list-style: none;
+   background-color: #000000 ;
+   padding: 1em;
+   display: flex; 
+   font-size: 18px; 
+   font-weight: 600; 
+   margin: 0;
+}
+
+
+nav li {
+    display: inline-block; 
+   
+}   
+
+nav a  {
+    text-decoration: none;
+    color: #fff;
+ 
+  
+}
+
+#submit-signin {
+  position: relative;
+  left: 70em; 
+ 
+  } 
+
+  .submit {
+    padding-inline: 2em;
+    border-style: solid;
+    border-radius: 5px; 
+    border-color: #fff;
+    border-width: 1px; 
+    padding: 0.5em;
+ 
+  } 
+  .submit a {
+   color: #fff;
+  }
+
+  .sign {
+    background-color: #4C5FD5;
+    border-radius: 0.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+  } 
+
+  .sign:hover {
+   background-color: #fff;
+  } 
+
+.sign a:hover {
+  color:#000000;
+}
+
+
+ #help:hover {
+  text-decoration: underline;
+ }
+
+#help a:hover {
+  color: #fff;
+} 
+
+#logo a {
+  color: #fff;
+} 
+#logo a:hover {
+color: #a09c9c;
+
+}
+
+/* search section */
+
+form {
+    display: flex;
+    flex-direction: column; 
+   
+   
+} 
+.search-bar { 
+    background-color: #dadbf1;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+   
+input {
+    width: 40em; 
+    font-size: large;
+    padding: 0.5em; 
+    position: relative;
+    left: 35em;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px -2px rgba(0,0,0,0.29);
+
+}
+
+label {
+    font-size: 60px; 
+    font-weight: 500;
+    position: relative;
+    left: 12em;
+    padding-bottom: 1em;
+   
+}
+ 
+.arrow {
+    position: relative; 
+    left: 82em;
+    bottom: 2em;
+
+} 
+
+/* main content*/
+
+section { 
+    margin: 4em;
+    display:flex; 
+   justify-content: space-evenly;
+    
+  } 
+  
+  #img-using-abstract{
+   position: relative; 
+   right: 6em;
+   top: 5em;
+
+  } 
+
+  #img-manage-account {
+    position: relative;
+     right: 6em;
+     top: 5em;
+  }
+
+  #img-puzzle {
+    position: relative;
+    right: 6em; 
+    top: 5em;
+  }
+
+  #puzzle-section {
+    position: relative;
+    left: 3em;
+  } 
+
+  #dollar-sign {
+    position: relative;
+    right: 6em; 
+    top: 5em;
+  } 
+
+  #dollar-section {
+    position: relative;
+    right: 6em;
+  } 
+
+  #key {
+    position: relative;
+    right: 6em; 
+    top: 5em;
+  } 
+
+  #key-section {
+    position: relative;
+    right: 3em;
+  }
+
+  #chat {
+    position: relative;
+    right: 6em; 
+    top: 5em;
+  }
+
+  #chat-section {
+    position: relative;
+    right: 5em;
+  }
+
+ img {
+    width: 75px;
+    height: 75px; 
+  display: flex;
+} 
+
+.learn-more {
+  color: #4C5FD5;
+}
+
+.learn-more:hover {
+text-decoration: underline;
+}
+
+/* footer */ 
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  background-color: #000000;
+  color: #fff; 
+  
+} 
+
+#copyright {
+  position: relative;
+  top: 6em;
+
+}
+
+footer p {
+  flex-direction: column;
+} 
+
+
